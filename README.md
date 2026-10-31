@@ -3,7 +3,7 @@
 把一整個資料夾的旅行照片和影片交給 TripVlog，它在你的 Mac 上挑片、照拍攝時間排好、對齊音樂的拍子、配上字幕，
 輸出 MP4、直式短版，或交給 Final Cut Pro 接著剪。預設完全離線，影片不上傳。
 
-**下載與安裝說明：<https://samtu1985.github.io/tripvlog/>**
+**下載與安裝說明：<https://tripvlog.fortunefor.me/>**
 
 這個 repo 只放下載頁和安裝檔，沒有原始碼。每個版本的安裝檔在 [Releases](https://github.com/samtu1985/tripvlog/releases)。
 
