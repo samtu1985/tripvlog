@@ -1,5 +1,20 @@
 [
  {
+  "version": "0.6.4",
+  "date": "2026-11-01",
+  "title": "曲庫、多首背景音樂、分析設定不再跑掉",
+  "file": "TripVlog_0.6.4_aarch64.zip",
+  "size": 305740834,
+  "sha256": "8ea45758ba2337b1f3c1fe7037ab45ba88d7a605bce927ab0e1b67fef082c7fd",
+  "notes": [
+   "曲庫：指定一個自己的音樂資料夾，設定一次，每個專案都能試聽、選用。選到的歌會複製進專案，之後資料夾搬走或 NAS 沒連線也能輸出。App 不內附曲目，請放你有權使用的音樂。",
+   "一部影片可以放好幾首背景音樂：照順序播放，每首先調到差不多大聲，中間交叉淡化 2 秒。可以調整順序、試聽和個別移除。匯入 Final Cut Pro 時會合併成一段。",
+   "修正：「分析」頁設定的成片長度和其他選項，切到別頁再回來會跑掉。現在一改就存進專案，關掉 App 也還在。",
+   "修正：設定頁在很寬的視窗會空出整欄、按鈕文字變直排。現在最多三欄並置中。"
+  ],
+  "url": "https://github.com/samtu1985/tripvlog/releases/download/v0.6.4/TripVlog_0.6.4_aarch64.zip"
+ },
+ {
   "version": "0.6.3",
   "date": "2026-10-31",
   "title": "本機 AI 不用另外安裝 Ollama",
@@ -36,14 +51,14 @@
   "version": "0.6.1",
   "date": "2026-10-31",
   "title": "不用再安裝 Homebrew",
-  "file": "TripVlog_0.6.1_aarch64.zip",
-  "size": 226705768,
-  "sha256": "8f611799844bd934c768695ffab8ec5bd9d0a99f1068349659eaf9dec2a88e16",
+  "file": null,
+  "size": null,
+  "sha256": null,
   "notes": [
    "ffmpeg 和 exiftool 已經包在 App 裡，不用再安裝 Homebrew，也不用另外下載影片工具。",
    "已經用 Homebrew 裝過也沒關係：App 會改用內附的版本，原本裝的可以留著，也可以自己移除。"
   ],
-  "url": "https://github.com/samtu1985/tripvlog/releases/download/v0.6.1/TripVlog_0.6.1_aarch64.zip"
+  "url": null
  },
  {
   "version": "0.6.0",
