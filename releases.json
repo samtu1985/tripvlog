@@ -1,5 +1,18 @@
 [
  {
+  "version": "0.6.1",
+  "date": "2026-10-31",
+  "title": "不用再安裝 Homebrew",
+  "file": "TripVlog_0.6.1_aarch64.zip",
+  "size": 226697323,
+  "sha256": "84c8b886ba40d59a42b88e8ad0f1b3f4d2311c489aeffe80af2254487fa9972a",
+  "notes": [
+   "ffmpeg 和 exiftool 已經包在 App 裡，不用再安裝 Homebrew，也不用另外下載影片工具。",
+   "已經用 Homebrew 裝過也沒關係：App 會改用內附的版本，原本裝的可以留著，也可以自己移除。"
+  ],
+  "url": "https://github.com/samtu1985/tripvlog/releases/download/v0.6.1/TripVlog_0.6.1_aarch64.zip"
+ },
+ {
   "version": "0.6.0",
   "date": "2026-10-31",
   "title": "字幕校對、讓 AI 幫你剪、直式短版",
