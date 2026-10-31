@@ -108,7 +108,7 @@
     <ul>
       <li><strong>預設完全離線。</strong>分析、語音辨識、剪輯、輸出都在你的電腦上完成，不需要帳號。</li>
       <li><strong>雲端輔助要你自己打開。</strong>開啟後只會把 480 像素的縮圖交給 Google Gemini 評分，用你自己的金鑰，每次上傳都留下紀錄；原始照片和影片永遠不上傳。</li>
-      <li><strong>本機 AI 只連這台電腦。</strong>選用的 Ollama 模型在你的 Mac 上執行，會在雲端執行的模型一律拒用。</li>
+      <li><strong>本機 AI 只連這台電腦。</strong>選用的本機模型透過內附的 Ollama 在你的 Mac 上執行，會在雲端執行的模型一律拒用。</li>
     </ul>
   </section>
 
@@ -142,7 +142,6 @@
         <ul class="reqs">
           <li>Apple Silicon（M1 以後）的 Mac，macOS 14 以上</li>
           <li>建議 16GB 以上記憶體</li>
-          <li>選用：<a href="https://ollama.com/download">Ollama</a>（本機 AI 挑片與字幕翻譯）</li>
         </ul>
       </div>
     </div>
@@ -157,7 +156,7 @@
 <footer class="foot">
   <p>TripVlog 是個人開發的免費軟體，依現狀提供。</p>
   <p class="credits">
-    地名資料來自 <a href="https://www.geonames.org/">GeoNames</a>（CC BY 4.0）。內附 Python 與開源套件、FFmpeg（LGPL 2.1）、ExifTool（Artistic）、Cloudflare cloudflared（Apache 2.0），
+    地名資料來自 <a href="https://www.geonames.org/">GeoNames</a>（CC BY 4.0）。內附 Python 與開源套件、FFmpeg（LGPL 2.1）、ExifTool（Artistic）、Ollama（MIT）、Cloudflare cloudflared（Apache 2.0），
     授權文字在 App 內的 Contents/Resources/pipeline/tools，這些第三方工具的原始碼在每個版本的 <a href="https://github.com/samtu1985/tripvlog/releases">Release</a> 附檔。語音辨識使用 OpenAI Whisper（MIT）模型，第一次使用時下載。
   </p>
   <p>這個網頁放在 GitHub Pages，安裝檔由 GitHub Releases 提供，字型來自 Google Fonts；網頁本身不追蹤、不設 cookie。</p>

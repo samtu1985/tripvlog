@@ -31,7 +31,6 @@ xattr -dr com.apple.quarantine /Applications/TripVlog.app
 ## 需求
 
 - Apple Silicon（M1 以後）的 Mac，macOS 14 以上，建議 16GB 以上記憶體
-- 選用：[Ollama](https://ollama.com/download)（本機 AI 挑片與字幕翻譯）
 
 ## 回報問題
 
