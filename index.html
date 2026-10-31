@@ -136,10 +136,7 @@
             <pre><code>xattr -dr com.apple.quarantine /Applications/TripVlog.app</code></pre>
             請只對從這裡下載、而且 SHA-256 相符的檔案這樣做。
           </li>
-          <li>
-            安裝影片工具（需要 <a href="https://brew.sh/zh-tw/">Homebrew</a>）：
-            <pre><code>brew install ffmpeg-full exiftool</code></pre>
-          </li>
+          <li>打開 TripVlog 就可以開始用了。影片工具已經包在 App 裡，不用另外安裝。</li>
         </ol>
         <h3>需求</h3>
         <ul class="reqs">
@@ -160,8 +157,8 @@
 <footer class="foot">
   <p>TripVlog 是個人開發的免費軟體，依現狀提供。</p>
   <p class="credits">
-    地名資料來自 <a href="https://www.geonames.org/">GeoNames</a>（CC BY 4.0）。內附 Python 與開源套件、Cloudflare cloudflared（Apache 2.0）；
-    ffmpeg 與 exiftool 請自行安裝。語音辨識使用 OpenAI Whisper（MIT）模型，第一次使用時下載。
+    地名資料來自 <a href="https://www.geonames.org/">GeoNames</a>（CC BY 4.0）。內附 Python 與開源套件、FFmpeg（LGPL 2.1）、ExifTool（Artistic）、Cloudflare cloudflared（Apache 2.0），
+    授權文字與原始碼網址在 App 內的 Contents/Resources/pipeline/tools。語音辨識使用 OpenAI Whisper（MIT）模型，第一次使用時下載。
   </p>
   <p>這個網頁放在 GitHub Pages，安裝檔由 GitHub Releases 提供，字型來自 Google Fonts；網頁本身不追蹤、不設 cookie。</p>
 </footer>
