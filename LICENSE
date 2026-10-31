@@ -1,0 +1,25 @@
+TripVlog 使用授權
+
+Copyright (c) 2026 samtu1985
+
+1. 你可以免費下載、安裝和使用 TripVlog，個人或商業用途都可以，用它做出來的影片屬於你。
+2. 你可以轉傳從本 repo 下載的原始 zip 檔，但不能收費，也不能修改其中的內容。
+3. 不得販售、出租 TripVlog，也不得反組譯、修改後再散布。
+4. TripVlog 依現狀提供，不提供任何明示或默示的擔保。作者不對使用 TripVlog 造成的任何損失負責，
+   包括資料遺失；請自行備份原始照片和影片。
+5. TripVlog 內附的 Python、開源套件與 cloudflared 等第三方元件，各自依其原本的授權條款提供。
+
+---
+
+TripVlog License
+
+Copyright (c) 2026 samtu1985
+
+1. You may download, install and use TripVlog free of charge, for personal or commercial purposes.
+   Videos you make with it are yours.
+2. You may redistribute the original zip file downloaded from this repository, free of charge and unmodified.
+3. You may not sell or rent TripVlog, or decompile, modify and redistribute it.
+4. TripVlog is provided "as is", without warranty of any kind. The author is not liable for any loss arising from
+   its use, including loss of data; keep backups of your original photos and videos.
+5. Third-party components bundled with TripVlog (Python, open-source packages, cloudflared and others) are provided
+   under their own licenses.

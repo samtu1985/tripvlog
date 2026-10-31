@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>TripVlog｜把旅行素材剪成 Vlog 的 Mac App</title>
+<meta name="description" content="把一整個資料夾的旅行照片和影片丟進去，TripVlog 在你的 Mac 上挑片、照時間排好、對齊音樂、上字幕，輸出 MP4 或交給 Final Cut Pro。影片不上傳。">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=LXGW+WenKai+TC:wght@400;700&family=Noto+Sans+TC:wght@400;500;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+<script src="app.js" defer></script>
+</head>
+<body>
+
+<header class="top">
+  <a class="brand" href="#">TripVlog</a>
+  <nav>
+    <a href="#how">怎麼運作</a>
+    <a href="#privacy">隱私</a>
+    <a href="#download">下載</a>
+    <a href="#releases">更新紀錄</a>
+  </nav>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <h1><span>整趟旅行的素材，</span><span>自動剪成一支 Vlog。</span></h1>
+      <p class="lede">
+        把裝著照片和影片的資料夾交給 TripVlog。它在你的 Mac 上挑出值得留的片段、照拍攝時間排好、對齊音樂的拍子、配上字幕，
+        幾分鐘後就有一支可以傳給家人的影片，也能接著用 Final Cut Pro 修。
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="#download">下載 Mac 版</a>
+        <span class="hero-meta" id="hero-version">Apple Silicon・macOS 14 以上</span>
+      </div>
+    </div>
+
+    <figure class="reel" aria-label="示意：散亂的旅行片段被排成一條依時間排序的時間軸">
+      <div class="reel-stage" id="reel">
+        <div class="clip c1" style="--x:4%;--y:8%;--r:-9deg;--i:0"><span class="day">Day 1・12/30・大阪</span><em>道頓堀</em></div>
+        <div class="clip c2" style="--x:56%;--y:2%;--r:7deg;--i:1"><em>大阪城</em></div>
+        <div class="clip c3" style="--x:30%;--y:40%;--r:-4deg;--i:2"><b>我們在說話</b><em>章魚燒</em></div>
+        <div class="clip c4" style="--x:64%;--y:44%;--r:9deg;--i:3"><span class="day">Day 2・12/31・環球影城</span><em>遠景</em></div>
+        <div class="clip c5" style="--x:12%;--y:54%;--r:6deg;--i:4"><b>精彩時刻</b><em>表演</em></div>
+        <div class="clip c6" style="--x:40%;--y:12%;--r:-12deg;--i:5"><em>排隊</em></div>
+        <div class="clip c7" style="--x:68%;--y:24%;--r:-6deg;--i:6"><b>倒數</b><em>23:59</em></div>
+        <div class="clip c8" style="--x:42%;--y:58%;--r:9deg;--i:7"><b>精彩時刻</b><em>煙火</em></div>
+      </div>
+      <figcaption>散在各台相機裡的片段，照拍攝時間排好，每天開頭自動加上標題卡，剪接點落在音樂的拍子上。</figcaption>
+    </figure>
+  </section>
+
+  <section class="how" id="how">
+    <h2>從資料夾到成片</h2>
+    <ol class="steps">
+      <li>
+        <h3>選資料夾</h3>
+        <p>iPhone、DJI、Canon 的照片和影片放在同一個資料夾就好，NAS 上也行。Log、HDR、RAW 都讀得懂，原檔不會被修改。</p>
+      </li>
+      <li>
+        <h3>自動分析</h3>
+        <p>看畫面美感、清晰度和人臉，聽出你們在說話、歡呼、煙火和倒數，夜景不會被當成拍壞的畫面。</p>
+      </li>
+      <li>
+        <h3>排成故事</h3>
+        <p>多台相機的素材依拍攝時間排好，每天開頭加上「Day 2・京都」標題卡；同一段錄影一定照順序播，開頭先放幾秒精華。</p>
+      </li>
+      <li>
+        <h3>跟著音樂</h3>
+        <p>剪接點落在拍子上，說話時音樂自動壓低，整部片音量一致，不會一下太小聲一下太大聲。</p>
+      </li>
+      <li>
+        <h3>檢查、輸出</h3>
+        <p>在時間軸上刪、換、拖曳；逐句校對字幕。輸出 MP4、15–90 秒的直式短版，或交給 Final Cut Pro 接著剪。</p>
+      </li>
+    </ol>
+
+    <dl class="extras">
+      <div>
+        <dt>字幕</dt>
+        <dd>本機語音辨識，中文、日文、英文混在一起也逐句判斷；聽錯的字一次改完，還能存成詞庫。</dd>
+      </div>
+      <div>
+        <dt>直式短版</dt>
+        <dd>從時間軸挑最精彩的片段做成直式短片，畫面跟著人臉或主體裁切，適合 Reels、Shorts 或傳到家族群組。</dd>
+      </div>
+      <div>
+        <dt>Final Cut Pro</dt>
+        <dd>匯出 FCPXML：片段連到原檔，標題、章節標記和音量都在，可以直接接手精修。</dd>
+      </div>
+      <div>
+        <dt>用講的剪片</dt>
+        <dd>讓這台 Mac 上的 Claude Code 或 Codex 操作 TripVlog：「把錯字改好，挑 60 秒的精華做成直式影片。」用你自己的 AI 方案，只開放你勾選的專案。</dd>
+      </div>
+      <div>
+        <dt>手機看進度</dt>
+        <dd>輸出要等一下的時候，用 iPhone 掃 QR code 就能看進度、播放預覽、下載影片。</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section class="privacy" id="privacy">
+    <h2>影片不會離開你的 Mac</h2>
+    <ul>
+      <li><strong>預設完全離線。</strong>分析、語音辨識、剪輯、輸出都在你的電腦上完成，不需要帳號。</li>
+      <li><strong>雲端輔助要你自己打開。</strong>開啟後只會把 480 像素的縮圖交給 Google Gemini 評分，用你自己的金鑰，每次上傳都留下紀錄；原始照片和影片永遠不上傳。</li>
+      <li><strong>本機 AI 只連這台電腦。</strong>選用的 Ollama 模型在你的 Mac 上執行，會在雲端執行的模型一律拒用。</li>
+    </ul>
+  </section>
+
+  <section class="download" id="download">
+    <h2>下載</h2>
+    <div class="dl-grid">
+      <div class="dl-card" id="dl-card">
+        <p class="dl-version" id="dl-version">讀取中…</p>
+        <p class="dl-meta" id="dl-meta"></p>
+        <a class="button primary big" id="dl-button" aria-disabled="true">下載 TripVlog</a>
+        <p class="dl-status" id="dl-status" role="status" aria-live="polite"></p>
+        <details class="sha" id="dl-sha" hidden>
+          <summary>檔案的 SHA-256（確認下載的檔案沒被動過）</summary>
+          <code id="dl-sha-value"></code>
+          <p>在終端機執行 <code>shasum -a 256 ~/Downloads/TripVlog_*.zip</code>，結果應該和上面一樣。</p>
+        </details>
+      </div>
+
+      <div class="install">
+        <h3>安裝</h3>
+        <ol>
+          <li>解壓縮下載的 zip，打開裡面的 DMG，把 TripVlog 拖到「應用程式」。</li>
+          <li>
+            TripVlog 是個人專案，沒有經過 Apple 公證，第一次打開前要在「終端機」執行一次：
+            <pre><code>xattr -dr com.apple.quarantine /Applications/TripVlog.app</code></pre>
+            請只對從這裡下載、而且 SHA-256 相符的檔案這樣做。
+          </li>
+          <li>
+            安裝影片工具（需要 <a href="https://brew.sh/zh-tw/">Homebrew</a>）：
+            <pre><code>brew install ffmpeg-full exiftool</code></pre>
+          </li>
+        </ol>
+        <h3>需求</h3>
+        <ul class="reqs">
+          <li>Apple Silicon（M1 以後）的 Mac，macOS 14 以上</li>
+          <li>建議 16GB 以上記憶體</li>
+          <li>選用：<a href="https://ollama.com/download">Ollama</a>（本機 AI 挑片與字幕翻譯）</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section class="releases" id="releases">
+    <h2>更新紀錄</h2>
+    <div id="release-list"><p class="dim">讀取中…</p></div>
+  </section>
+</main>
+
+<footer class="foot">
+  <p>TripVlog 是個人開發的免費軟體，依現狀提供。</p>
+  <p class="credits">
+    地名資料來自 <a href="https://www.geonames.org/">GeoNames</a>（CC BY 4.0）。內附 Python 與開源套件、Cloudflare cloudflared（Apache 2.0）；
+    ffmpeg 與 exiftool 請自行安裝。語音辨識使用 OpenAI Whisper（MIT）模型，第一次使用時下載。
+  </p>
+  <p>這個網頁放在 GitHub Pages，安裝檔由 GitHub Releases 提供，字型來自 Google Fonts；網頁本身不追蹤、不設 cookie。</p>
+</footer>
+</body>
+</html>
