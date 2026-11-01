@@ -1,5 +1,19 @@
 [
  {
+  "version": "0.6.7",
+  "date": "2026-11-01",
+  "title": "簽章並通過 Apple 公證，不用再打指令",
+  "file": "TripVlog_0.6.7_aarch64.zip",
+  "size": 275228745,
+  "sha256": "ec6830da9b8b8397c778e1e3cc9e756cb7b33616da4b26ded934c34d7f7c31b8",
+  "notes": [
+   "App 現在由開發者簽章並通過 Apple 公證。第一次打開時 macOS 會問「確定要打開嗎？」，按「打開」就好，不用再開終端機執行指令。",
+   "內附的 Python 和影像、語音、本機 AI 元件都在簽章後的版本上測過，分析、輸出預覽和直式短片正常。",
+   "內容和 0.6.6 相同，沒有新功能。"
+  ],
+  "url": "https://github.com/samtu1985/tripvlog/releases/download/v0.6.7/TripVlog_0.6.7_aarch64.zip"
+ },
+ {
   "version": "0.6.6",
   "date": "2026-11-01",
   "title": "分析速度恢復",
