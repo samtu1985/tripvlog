@@ -5,7 +5,7 @@
 
 **下載與安裝說明：<https://tripvlog.fortunefor.me/>**
 
-這個 repo 只放下載頁和安裝檔，沒有原始碼。每個版本的安裝檔在 [Releases](https://github.com/samtu1985/tripvlog/releases)。
+下載頁和安裝檔已經搬走，這個 repo 只留 Issues，沒有原始碼，也不再放安裝檔。請從上面的網址下載。
 
 ## 確認下載的檔案
 
@@ -15,7 +15,7 @@
 shasum -a 256 ~/Downloads/TripVlog_*.zip
 ```
 
-結果要和 Release 說明、下載頁上的值完全一樣。
+結果要和下載頁上的值完全一樣。
 
 ## 第一次打開
 
