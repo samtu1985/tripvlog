@@ -17,16 +17,17 @@ shasum -a 256 ~/Downloads/TripVlog_*.zip
 
 結果要和 Release 說明、下載頁上的值完全一樣。
 
-## 為什麼第一次打開要執行指令
+## 第一次打開
 
-TripVlog 是個人開發的免費軟體，沒有付費加入 Apple 開發者計畫，所以 App 沒有經過 Apple 公證，macOS 會擋下第一次開啟。
-確認 SHA-256 相符後，把 App 拖到「應用程式」，再執行一次：
+0.6.7 起，App 由開發者簽章並經過 Apple 公證，第一次打開時 macOS 會問「確定要打開嗎？」，按「打開」就好。
+
+0.6.6 和更早的版本沒有公證，確認 SHA-256 相符後，要先執行一次：
 
 ```bash
 xattr -dr com.apple.quarantine /Applications/TripVlog.app
 ```
 
-請只對從這裡下載、而且 SHA-256 相符的檔案這樣做。別的地方轉傳的 TripVlog 不要用這個指令打開。
+請只對從這裡下載、而且 SHA-256 相符的檔案這樣做。
 
 ## 需求
 

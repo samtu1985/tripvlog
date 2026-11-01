@@ -132,11 +132,10 @@
         <ol>
           <li>解壓縮下載的 zip，打開裡面的 DMG，把 TripVlog 拖到「應用程式」。</li>
           <li>
-            TripVlog 是個人專案，沒有經過 Apple 公證，第一次打開前要在「終端機」執行一次：
-            <pre><code>xattr -dr com.apple.quarantine /Applications/TripVlog.app</code></pre>
-            請只對從這裡下載、而且 SHA-256 相符的檔案這樣做。
+            打開 TripVlog。App 已由開發者簽章並經過 Apple 公證，第一次打開時 macOS 會問「確定要打開嗎？」，按「打開」就好。
+            <small>（0.6.6 和更早的版本沒有公證，第一次打開前要在「終端機」執行 <code>xattr -dr com.apple.quarantine /Applications/TripVlog.app</code>。）</small>
           </li>
-          <li>打開 TripVlog 就可以開始用了。影片工具已經包在 App 裡，不用另外安裝。</li>
+          <li>影片工具已經包在 App 裡，不用另外安裝。</li>
         </ol>
         <h3>需求</h3>
         <ul class="reqs">
