@@ -1,5 +1,19 @@
 [
  {
+  "version": "0.6.5",
+  "date": "2026-11-01",
+  "title": "移除內含 GPL 元件的影像函式庫",
+  "file": "TripVlog_0.6.5_aarch64.zip",
+  "size": 268620278,
+  "sha256": "2ac6f8eb8234eb16a36125514bb16c51eb6ae0d00c550239d7ffc513cba23c76",
+  "notes": [
+   "授權修正：舊版內附的 OpenCV 影像函式庫，帶有 x264、x265 等 GPL 元件，下載頁之前沒有列出。這版已完全移除，建議使用舊版的人都更新。舊版下載也已下架。",
+   "分析畫面改用 App 內建的 ffmpeg，挑片規則沒有改。測試素材選到的片段相同，只有少數片段的入出點略有不同。",
+   "分析畫面的步驟會變慢，約為之前的 2.5 倍；轉檔和語音辨識的速度不受影響。"
+  ],
+  "url": "https://github.com/samtu1985/tripvlog/releases/download/v0.6.5/TripVlog_0.6.5_aarch64.zip"
+ },
+ {
   "version": "0.6.4",
   "date": "2026-11-01",
   "title": "曲庫、多首背景音樂、分析設定不再跑掉",
@@ -34,9 +48,9 @@
   "version": "0.6.2",
   "date": "2026-10-31",
   "title": "全域設定、多專案權限列表、關於頁",
-  "file": "TripVlog_0.6.2_aarch64.zip",
-  "size": 226996510,
-  "sha256": "050e98a80aab680dfdbdab74cf774cdb098cad54e45934629814b82154d83291",
+  "file": null,
+  "size": null,
+  "sha256": null,
   "notes": [
    "隱私、本機 AI、語音模型和字幕語言改成全域設定：沒開專案也能改，所有專案共用。",
    "雲端輔助改成同意一次、所有專案適用。之前對個別專案的同意不會沿用，更新後一律回到離線，要用請重新開啟。",
@@ -45,7 +59,7 @@
    "新增「關於」分頁，可以看到版本和作者。",
    "修正：工具檢查的長路徑會超出卡片。拿掉沒有設定項目的「語言」卡片。"
   ],
-  "url": "https://github.com/samtu1985/tripvlog/releases/download/v0.6.2/TripVlog_0.6.2_aarch64.zip"
+  "url": null
  },
  {
   "version": "0.6.1",
