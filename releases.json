@@ -17,24 +17,24 @@
   "version": "0.6.4",
   "date": "2026-11-01",
   "title": "曲庫、多首背景音樂、分析設定不再跑掉",
-  "file": "TripVlog_0.6.4_aarch64.zip",
-  "size": 305740834,
-  "sha256": "8ea45758ba2337b1f3c1fe7037ab45ba88d7a605bce927ab0e1b67fef082c7fd",
+  "file": null,
+  "size": null,
+  "sha256": null,
   "notes": [
    "曲庫：指定一個自己的音樂資料夾，設定一次，每個專案都能試聽、選用。選到的歌會複製進專案，之後資料夾搬走或 NAS 沒連線也能輸出。App 不內附曲目，請放你有權使用的音樂。",
    "一部影片可以放好幾首背景音樂：照順序播放，每首先調到差不多大聲，中間交叉淡化 2 秒。可以調整順序、試聽和個別移除。匯入 Final Cut Pro 時會合併成一段。",
    "修正：「分析」頁設定的成片長度和其他選項，切到別頁再回來會跑掉。現在一改就存進專案，關掉 App 也還在。",
    "修正：設定頁在很寬的視窗會空出整欄、按鈕文字變直排。現在最多三欄並置中。"
   ],
-  "url": "https://github.com/samtu1985/tripvlog/releases/download/v0.6.4/TripVlog_0.6.4_aarch64.zip"
+  "url": null
  },
  {
   "version": "0.6.3",
   "date": "2026-10-31",
   "title": "本機 AI 不用另外安裝 Ollama",
-  "file": "TripVlog_0.6.3_aarch64.zip",
-  "size": 305196978,
-  "sha256": "cf3a0795b84d202644f82eb81cd0aca8efd006fa88154e25e921cb3dd0c62492",
+  "file": null,
+  "size": null,
+  "sha256": null,
   "notes": [
    "Ollama 已經包在 App 裡，不用另外安裝；需要時才在背景啟動，只在這台 Mac 上執行。如果你已經在用自己的 Ollama，App 會直接用它，模型不用重新下載。",
    "勾選本機 AI、換模型或選字幕翻譯語言時，缺少的模型會自動下載；視窗底部顯示進度，可以取消。",
@@ -42,7 +42,7 @@
    "設定頁在一般視窗大小不用再左右捲動。",
    "安裝檔變大約 80 MB，因為多包了 Ollama。"
   ],
-  "url": "https://github.com/samtu1985/tripvlog/releases/download/v0.6.3/TripVlog_0.6.3_aarch64.zip"
+  "url": null
  },
  {
   "version": "0.6.2",
